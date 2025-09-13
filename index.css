@@ -1,0 +1,17 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+
+.app { display: flex; min-height: 100vh; background: #f3f4f6; }
+.sidebar { width: 220px; background: #1f7a1f; color: white; padding: 20px; }
+.brand { font-size: 20px; margin-bottom: 14px; }
+.nav-btn { display: block; width: 100%; padding: 8px; border: none; background: transparent; color: white; margin-bottom: 6px; cursor: pointer; border-radius: 6px; text-align: left; }
+.nav-btn:hover { background: rgba(255,255,255,0.1); }
+.nav-btn.active { background: rgba(255,255,255,0.2); }
+.main { flex: 1; padding: 20px; }
+
+.card { background: white; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); padding: 12px; margin-bottom: 16px; }
+.card-content h2 { margin-bottom: 8px; }
+
+.input { width: 100%; padding: 8px; margin: 6px 0; border: 1px solid #ddd; border-radius: 6px; }
+
+.btn { background: #16a34a; color: white; padding: 8px 12px; border: none; border-radius: 6px; cursor: pointer; }
+.btn:hover { background: #15803d; }
